@@ -40,3 +40,8 @@
 .background--color{
     background-color: #1A1A1A;
 }
+.body--background {
+    background-image: url("../assets/background.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
