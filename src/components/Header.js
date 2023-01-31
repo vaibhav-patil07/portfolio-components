@@ -2,15 +2,13 @@ import UniqueId from "../utils/UniqueId.js";
 import Component from "../components/Component.js";
 
 class Header extends Component {
-  displayFlex = "display--flex";
-  flexJustifyContentCenter = "flex--justify-c-center";
-  flexAlignItemCenter = "flex--align-i-center";
   constructor(data) {
     super();
     this.logo = data.logo;
     this.title = data.title;
     this.navBar = data.navBar;
   }
+
   render() {
     const container = document.createElement("div");
     const logoNameContainer = document.createElement("div");

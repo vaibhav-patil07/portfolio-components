@@ -1,0 +1,21 @@
+{
+  "title": "Vaibhav Patil",
+  "introduction": "B Tech. Computer Engineering, ASE Intern Contentstack.",
+  "socials": [
+    {
+      "icon": "./assets/instagram.svg",
+      "href": "https://www.instagram.com/vaibhavpatil4240/",
+      "alt": "instagram"
+    },
+    {
+      "icon": "./assets/github.svg",
+      "href": "https://github.com/VaibhavPatil4240",
+      "alt": "github"
+    },
+    {
+      "icon": "./assets/linkedin.svg",
+      "href": "https://www.linkedin.com/in/vaibhav-patil-04756a213/",
+      "alt": "linkedin"
+    }
+  ]
+}
