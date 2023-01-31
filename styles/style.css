@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.red-border{
+    border: 0px solid red;
+}
+
+.blue-border{
+    border: 0px solid blue;
+}
+
+.display--flex{
+    display: flex;
+}
+
+.flex--direction-col{
+    flex-direction: column;
+}
+
+.flex--justify-c-center{
+    justify-content: center;
+}
+
+.flex--align-c-center{
+    align-content: center;
+}
+
+.flex--align-i-center{
+    align-items: center;
+}
+
+.background--color{
+    background-color: #1A1A1A;
+}

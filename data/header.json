@@ -1,0 +1,18 @@
+{
+    "logo": "./assets/vp-logo.png",
+    "title": "Vaibhav Patil",
+    "navBar": [
+        {
+            "title": "Home",
+            "href": "#Home"
+        },
+        {
+            "title": "About",
+            "href": "#About"
+        },
+        {
+            "title": "Projects",
+            "href": "#Projects"
+        }
+    ]
+}
