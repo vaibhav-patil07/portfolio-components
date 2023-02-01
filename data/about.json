@@ -4,10 +4,10 @@
   "hobby": {
     "about": " In free time I love to do <span class=\"education--span\">3D modeling</span>. You can see some renders of models I made.",
     "images": [
-      { "src": "./images/hobbies/hobby1.png", "alt": "hobby image" },
-      { "src": "./images/hobbies/hobby2.png", "alt": "hobby image" },
-      { "src": "./images/hobbies/hobby3.png", "alt": "hobby image" },
-      { "src": "./images/hobbies/hobby4.png", "alt": "hobby image" }
+      { "src": "./assets/hobbies/hobby1.png", "alt": "hobby image" },
+      { "src": "./assets/hobbies/hobby2.png", "alt": "hobby image" },
+      { "src": "./assets/hobbies/hobby3.png", "alt": "hobby image" },
+      { "src": "./assets/hobbies/hobby4.png", "alt": "hobby image" }
     ]
   },
   "work-experience": {
