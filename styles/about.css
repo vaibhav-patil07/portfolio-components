@@ -1,0 +1,76 @@
+.about__title{
+    margin-top: 3%;
+    color: #dddddd;
+    font-size: 4rem;
+}
+.about__me{
+    color: #dddddd;
+    margin: 4% 7%;
+    font-size: 1.2rem;
+}
+.about__me-text{
+    padding-bottom: 2%;
+}
+.location--span{
+    color: aqua;
+    font-weight: bolder;
+}
+.education--span{
+    color: rgb(255, 0, 187);
+    font-weight: bolder;
+}
+.hobby--card{
+    width: 50%;
+    margin: 2% 2%;
+    box-shadow: 0 0 1px 1px #dddddd;
+    border-radius: 10%/20%;
+    overflow: hidden;
+}
+.hobby--image{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.hobby--image:hover{
+    opacity: 100%;
+}
+.about__work-experience{
+    padding-bottom: 1%;
+}
+.about__work-experience-cards{
+    width: 100%;
+}
+
+.about--work-card{
+    width: 50%;
+    margin: 1%;
+    padding: 2% 2%;
+    box-shadow: 0 0 10px 1px #dddddd4f;
+    border-radius: 10%/20%;
+    justify-content: space-around;
+}
+.about--work-card-title{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 1%;
+}
+.about--work-card-content{
+    font-size: 1rem;
+    padding: 1%;
+}
+.tech-stack{
+    margin-top: 1%;
+    width: 100%;
+    justify-content: space-around;
+}
+.tech{
+    padding: 1%;
+    font-size: 0.9rem;
+    font-style: italic;
+    border: 2px solid;
+    border-image:  linear-gradient(45deg, #353434, rgb(89, 0, 255)) 1;  
+    border-radius: 20%/50%;
+}   
+.about__achivements-list{
+    margin-top: 2%;
+}
