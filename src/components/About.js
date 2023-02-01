@@ -97,6 +97,7 @@ class About extends Component {
     aboutMeText.innerHTML = this.data.introduction;
     aboutHobbyText.innerHTML = this.data.hobby.about;
     aboutWorkText.innerText = this.data.work.about;
+    aboutAchivementsText .innerText= this.data.achivements.about;
 
     container.appendChild(title);
     aboutMe.appendChild(aboutMeText);
@@ -107,6 +108,8 @@ class About extends Component {
     aboutWork.appendChild(aboutWorkText);
     aboutWork.appendChild(aboutWorkCards);
     aboutMe.appendChild(aboutAchivements);
+    aboutAchivements.appendChild(aboutAchivementsText);
+    aboutAchivements.appendChild(aboutAchivementsList);
     container.appendChild(aboutMe);
 
     return container;
