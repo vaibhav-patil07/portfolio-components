@@ -1,0 +1,34 @@
+.about__work-experience-cards {
+  width: 100%;
+}
+
+.about--work-card {
+  width: 50%;
+  margin: 1%;
+  padding: 2% 2%;
+  box-shadow: 0 0 10px 1px #dddddd4f;
+  border-radius: 10%/20%;
+  justify-content: space-around;
+}
+.about--work-card-title {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 1%;
+}
+.about--work-card-content {
+  font-size: 1rem;
+  padding: 1%;
+}
+.tech-stack {
+  margin-top: 1%;
+  width: 100%;
+  justify-content: space-around;
+}
+.tech {
+  padding: 1%;
+  font-size: 0.9rem;
+  font-style: italic;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #353434, rgb(89, 0, 255)) 1;
+  border-radius: 10%/20%;
+}
