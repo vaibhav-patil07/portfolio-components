@@ -1,0 +1,29 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "title": "Devanagari handwritten character recognition system",
+      "about": "In this project we built a system which can take scanned image as input and recognize devanagari characters in it",
+      "subTitle": "Technology Stack",
+      "technolgyStack": ["Machine Learning","Python","Flask","Android"]
+    },
+    {
+      "title": "Image size reducer",
+      "about": "This project assess the quality of image using CNN and using the quality score jpeg compression is applied to reduce the size of image.",
+      "subTitle": "Technology Stack",
+      "technolgyStack": ["Deep Learning", "Python", "Fast Api"]
+    },
+    {
+      "title": "TFTP Server",
+      "about": "In this project UI based app is developed for sharing files using over the network TFTP protocol.",
+      "subTitle": "Technology Stack",
+      "technolgyStack": ["Python","Tkinter","Socket Programming"]
+    },
+    {
+      "title": "Agrobazar",
+      "about": "This project is about providing a e-commerce app for farmers to sell their products.",
+      "subTitle": "Technology Stack",
+      "technolgyStack": ["Android","Java","PHP","MySQL"]
+    }
+  ]
+}

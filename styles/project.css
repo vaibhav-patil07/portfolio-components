@@ -1,0 +1,8 @@
+.projects{
+    width: 100%;
+    color: #dddddd;
+}
+.project__cards{
+    margin: 4% 7%;
+    font-size: 1.2rem;
+}
