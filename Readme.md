@@ -1,6 +1,6 @@
-#This repository provides components of portfolio website
-List of components:
+<h2>This repository provides components of portfolio website</h2><br>
 
+List of components:
 <ul>
     <li>Header</li>
     <li>Home</li>
@@ -25,7 +25,7 @@ runApp() function finds all nodes from dom provided in the classSelector,it crea
 <p>
 example ->
 
-```json
+```python
 config {
     classSelector :[
         {
