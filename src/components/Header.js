@@ -17,11 +17,19 @@ class Header extends Component {
     const nav = document.createElement("nav");
 
     this.navBar.forEach((element) => {
+      const navLinkContainer = document.createElement("div");
       const navLink = document.createElement("a");
       navLink.innerText = element.title;
       navLink.href = element.href;
       navLink.classList.add("nav__item");
-      nav.appendChild(navLink);
+      navLinkContainer.classList.add(
+        "nav__item-container",
+        this.displayFlex,
+        this.flexAlignItemCenter,
+        this.flexJustifyContentCenter
+      );
+      navLinkContainer.appendChild(navLink);
+      nav.appendChild(navLinkContainer);
     });
     logo.src = this.logo;
     title.innerText = this.title;

@@ -11,6 +11,7 @@ class Project extends Component {
     const container = document.createElement("div");
     const title = document.createElement("div");
 
+    container.id = "Projects";
     container.classList.add(
       "projects",
       this.displayFlex,

@@ -1,48 +1,65 @@
-.container{
-    width: 100%;
-    height: 90vh;
-    justify-content: space-between;
+.container {
+  width: 100%;
+  height: 90vh;
+  justify-content: space-between;
 }
-.home{
-    margin-top: 15%;
-    margin-left: 7%;
+main{
+  height: auto;
+}
+.home {
+  margin-top: 15%;
+  margin-left: 7%;
 }
 
-.home__title{
-    color: #dddddd;
-    font-size: 4rem;
+.home__title {
+  color: #dddddd;
+  font-size: 4rem;
 }
 
 .home__introduction {
-    font-family: 'Montserrat', 'sans-serif';
-    color: #dddddd;
-    font-size: 2rem;
-    text-align: start;
-    width: 30%;
-    margin-top: 2%;
+  font-family: "Montserrat", "sans-serif";
+  color: #dddddd;
+  font-size: 2rem;
+  text-align: start;
+  width: 30%;
+  margin-top: 2%;
 }
 
-.socials{
-    margin-bottom: 3%;
-    width: 50vw;
-    justify-content: space-around;
-    align-items: flex-start;
+.socials {
+  margin-bottom: 3%;
+  width: 50vw;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.social__icon{
-    height: 80px;
-    width: 80px;
-    border-radius: 100%;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0px 50px 5px #000000;
-    transition: transform 0.3s ease-in-out;
+.social__icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 50px 5px #000000;
+  transition: transform 0.3s ease-in-out;
 }
 .social__icon:hover {
-    transform: scale(1.2);
-    background-color: #735896;
-    box-shadow: 0 0px 15px 8px #9883b3
+  transform: scale(1.2);
+  background-color: #735896;
+  box-shadow: 0 0px 15px 8px #9883b3;
 }
-.social__icon__image{
-    height: 50px;
+.social__icon__image {
+  height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    height:auto;
+    width: 100%;
+  }
+  .home {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  .socials {
+    width: 100%;
+  }
 }

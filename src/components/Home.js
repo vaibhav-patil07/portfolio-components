@@ -30,7 +30,7 @@ class Home extends Component {
       socialIconContainer.appendChild(socialLink);
       socials.appendChild(socialIconContainer);
     });
-
+    container.id = "Home";
     title.innerText = this.title;
     introduction.innerText = this.introduction;
 

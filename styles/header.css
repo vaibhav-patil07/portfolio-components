@@ -4,7 +4,9 @@ header{
     box-shadow: 0px 0px 3px -1px  #cbbdde;
     background-color: #1A1A1A;
     z-index: 10;
-    position: fixed;
+    position: sticky;
+    overflow: hidden;
+    top: 0px;
 }
 
 .header__logo-name-container{
@@ -27,21 +29,57 @@ header{
     color: #dddddd;
     font-size: 2rem;
 }
-
+.nav__item-container{
+    width: auto;
+    padding: 2%;
+    height: 70%;
+    transition: all 0.3s ease-in-out;
+}
 .nav__item{
     text-decoration: none;
     color: #9E9E9E;
     font-size: 1.2rem;
+    height: 100%;
     border-radius: 5px;
     margin: 2% 7%;
-    height: 70%;
-    width: 100px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav__item:hover{
+    transform: scale(1.2);
+}
+.nav__item-container:hover{
     box-shadow: 0 0 5px 2px #353434;
 }
 .nav__item:active{
     color: #dddddd;
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+        height: 20vh;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header__logo-name-container{
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .nav__title{
+        visibility: visible;
+        padding: 2%;
+        margin: 1%;
+    }
+    .nav__div{
+        height: 8vh;
+    }
+
 }
